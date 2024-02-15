@@ -24,7 +24,7 @@ function MensajeSwitch() {
         case 9:
         case 10:
         case 11:
-            alert("Buenos días")
+            document.getElementById("solucion").innerHTML = "Buenos días";
         break;
         case 12:
         case 13:
@@ -35,7 +35,7 @@ function MensajeSwitch() {
         case 18:
         case 19:
         case 20:
-            alert("Buenas tardes")
+            document.getElementById("solucion").innerHTML = "Buenas tardes";
         break;
 
         case 21:
@@ -48,9 +48,9 @@ function MensajeSwitch() {
         case 4:
         case 5:
         case 6:
-            alert("Buenas noches")
+            document.getElementById("solucion").innerHTML = "Buenas noches";
         break;
         default:
-            alert("No es un número válido")
+            document.getElementById("solucion").innerHTML = "No es un número válido";
     }
 }
